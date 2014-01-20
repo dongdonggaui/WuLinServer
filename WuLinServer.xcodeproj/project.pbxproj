@@ -7,23 +7,341 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0605B664188D706D005926D0 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		0605B668188D7B8B005926D0 /* bg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bg.gif; sourceTree = "<group>"; };
+		0605B669188D7B8B005926D0 /* form.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = form.css; sourceTree = "<group>"; };
+		0605B66A188D7B8B005926D0 /* ie.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = ie.css; sourceTree = "<group>"; };
+		0605B66B188D7B8B005926D0 /* main.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		0605B66C188D7B8B005926D0 /* print.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = print.css; sourceTree = "<group>"; };
+		0605B66D188D7B8B005926D0 /* screen.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = screen.css; sourceTree = "<group>"; };
+		0605B66F188D7B8B005926D0 /* index-test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = "index-test.php"; sourceTree = "<group>"; };
+		0605B670188D7B8B005926D0 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		0605B672188D7B8B005926D0 /* .htaccess */ = {isa = PBXFileReference; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
+		0605B676188D7B8B005926D0 /* Controller.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = Controller.php; sourceTree = "<group>"; };
+		0605B677188D7B8B005926D0 /* UserIdentity.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = UserIdentity.php; sourceTree = "<group>"; };
+		0605B679188D7B8B005926D0 /* console.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = console.php; sourceTree = "<group>"; };
+		0605B67A188D7B8B005926D0 /* main.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = main.php; sourceTree = "<group>"; };
+		0605B67B188D7B8B005926D0 /* test.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = test.php; sourceTree = "<group>"; };
+		0605B67D188D7B8B005926D0 /* SiteController.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = SiteController.php; sourceTree = "<group>"; };
+		0605B67F188D7B8B005926D0 /* schema.mysql.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.mysql.sql; sourceTree = "<group>"; };
+		0605B680188D7B8B005926D0 /* schema.sqlite.sql */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.sqlite.sql; sourceTree = "<group>"; };
+		0605B681188D7B8B005926D0 /* testdrive.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = testdrive.db; sourceTree = "<group>"; };
+		0605B686188D7B8B005926D0 /* ContactForm.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = ContactForm.php; sourceTree = "<group>"; };
+		0605B687188D7B8B005926D0 /* LoginForm.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = LoginForm.php; sourceTree = "<group>"; };
+		0605B68A188D7B8B005926D0 /* bootstrap.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = bootstrap.php; sourceTree = "<group>"; };
+		0605B68D188D7B8B005926D0 /* SiteTest.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = SiteTest.php; sourceTree = "<group>"; };
+		0605B68E188D7B8B005926D0 /* phpunit.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = phpunit.xml; sourceTree = "<group>"; };
+		0605B691188D7B8B005926D0 /* WebTestCase.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = WebTestCase.php; sourceTree = "<group>"; };
+		0605B695188D7B8B005926D0 /* column1.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = column1.php; sourceTree = "<group>"; };
+		0605B696188D7B8B005926D0 /* column2.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = column2.php; sourceTree = "<group>"; };
+		0605B697188D7B8B005926D0 /* main.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = main.php; sourceTree = "<group>"; };
+		0605B699188D7B8B005926D0 /* contact.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = contact.php; sourceTree = "<group>"; };
+		0605B69A188D7B8B005926D0 /* error.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = error.php; sourceTree = "<group>"; };
+		0605B69B188D7B8B005926D0 /* index.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = index.php; sourceTree = "<group>"; };
+		0605B69C188D7B8B005926D0 /* login.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = login.php; sourceTree = "<group>"; };
+		0605B69E188D7B8B005926D0 /* about.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = about.php; sourceTree = "<group>"; };
+		0605B69F188D7B8B005926D0 /* yiic */ = {isa = PBXFileReference; lastKnownFileType = text; path = yiic; sourceTree = "<group>"; };
+		0605B6A0188D7B8B005926D0 /* yiic.bat */ = {isa = PBXFileReference; lastKnownFileType = text; path = yiic.bat; sourceTree = "<group>"; };
+		0605B6A1188D7B8B005926D0 /* yiic.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = yiic.php; sourceTree = "<group>"; };
+		0605B6A5188D7B8B005926D0 /* .htaccess */ = {isa = PBXFileReference; lastKnownFileType = text; path = .htaccess; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		0605B65B188D6FCB005926D0 = {
 			isa = PBXGroup;
 			children = (
-				0605B663188D706D005926D0 /* WuLinServer */,
+				0605B665188D7B8B005926D0 /* WuLinServer */,
 			);
 			sourceTree = "<group>";
 		};
-		0605B663188D706D005926D0 /* WuLinServer */ = {
+		0605B665188D7B8B005926D0 /* WuLinServer */ = {
 			isa = PBXGroup;
 			children = (
-				0605B664188D706D005926D0 /* index.php */,
+				0605B666188D7B8B005926D0 /* assets */,
+				0605B667188D7B8B005926D0 /* css */,
+				0605B66E188D7B8B005926D0 /* images */,
+				0605B66F188D7B8B005926D0 /* index-test.php */,
+				0605B670188D7B8B005926D0 /* index.php */,
+				0605B671188D7B8B005926D0 /* protected */,
+				0605B6A2188D7B8B005926D0 /* themes */,
 			);
 			path = WuLinServer;
+			sourceTree = "<group>";
+		};
+		0605B666188D7B8B005926D0 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		0605B667188D7B8B005926D0 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				0605B668188D7B8B005926D0 /* bg.gif */,
+				0605B669188D7B8B005926D0 /* form.css */,
+				0605B66A188D7B8B005926D0 /* ie.css */,
+				0605B66B188D7B8B005926D0 /* main.css */,
+				0605B66C188D7B8B005926D0 /* print.css */,
+				0605B66D188D7B8B005926D0 /* screen.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		0605B66E188D7B8B005926D0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0605B671188D7B8B005926D0 /* protected */ = {
+			isa = PBXGroup;
+			children = (
+				0605B672188D7B8B005926D0 /* .htaccess */,
+				0605B673188D7B8B005926D0 /* commands */,
+				0605B675188D7B8B005926D0 /* components */,
+				0605B678188D7B8B005926D0 /* config */,
+				0605B67C188D7B8B005926D0 /* controllers */,
+				0605B67E188D7B8B005926D0 /* data */,
+				0605B682188D7B8B005926D0 /* extensions */,
+				0605B683188D7B8B005926D0 /* messages */,
+				0605B684188D7B8B005926D0 /* migrations */,
+				0605B685188D7B8B005926D0 /* models */,
+				0605B688188D7B8B005926D0 /* runtime */,
+				0605B689188D7B8B005926D0 /* tests */,
+				0605B692188D7B8B005926D0 /* vendor */,
+				0605B693188D7B8B005926D0 /* views */,
+				0605B69F188D7B8B005926D0 /* yiic */,
+				0605B6A0188D7B8B005926D0 /* yiic.bat */,
+				0605B6A1188D7B8B005926D0 /* yiic.php */,
+			);
+			path = protected;
+			sourceTree = "<group>";
+		};
+		0605B673188D7B8B005926D0 /* commands */ = {
+			isa = PBXGroup;
+			children = (
+				0605B674188D7B8B005926D0 /* shell */,
+			);
+			path = commands;
+			sourceTree = "<group>";
+		};
+		0605B674188D7B8B005926D0 /* shell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = shell;
+			sourceTree = "<group>";
+		};
+		0605B675188D7B8B005926D0 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				0605B676188D7B8B005926D0 /* Controller.php */,
+				0605B677188D7B8B005926D0 /* UserIdentity.php */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		0605B678188D7B8B005926D0 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				0605B679188D7B8B005926D0 /* console.php */,
+				0605B67A188D7B8B005926D0 /* main.php */,
+				0605B67B188D7B8B005926D0 /* test.php */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		0605B67C188D7B8B005926D0 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0605B67D188D7B8B005926D0 /* SiteController.php */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		0605B67E188D7B8B005926D0 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0605B67F188D7B8B005926D0 /* schema.mysql.sql */,
+				0605B680188D7B8B005926D0 /* schema.sqlite.sql */,
+				0605B681188D7B8B005926D0 /* testdrive.db */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		0605B682188D7B8B005926D0 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		0605B683188D7B8B005926D0 /* messages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = messages;
+			sourceTree = "<group>";
+		};
+		0605B684188D7B8B005926D0 /* migrations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = migrations;
+			sourceTree = "<group>";
+		};
+		0605B685188D7B8B005926D0 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0605B686188D7B8B005926D0 /* ContactForm.php */,
+				0605B687188D7B8B005926D0 /* LoginForm.php */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		0605B688188D7B8B005926D0 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		0605B689188D7B8B005926D0 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				0605B68A188D7B8B005926D0 /* bootstrap.php */,
+				0605B68B188D7B8B005926D0 /* fixtures */,
+				0605B68C188D7B8B005926D0 /* functional */,
+				0605B68E188D7B8B005926D0 /* phpunit.xml */,
+				0605B68F188D7B8B005926D0 /* report */,
+				0605B690188D7B8B005926D0 /* unit */,
+				0605B691188D7B8B005926D0 /* WebTestCase.php */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		0605B68B188D7B8B005926D0 /* fixtures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = fixtures;
+			sourceTree = "<group>";
+		};
+		0605B68C188D7B8B005926D0 /* functional */ = {
+			isa = PBXGroup;
+			children = (
+				0605B68D188D7B8B005926D0 /* SiteTest.php */,
+			);
+			path = functional;
+			sourceTree = "<group>";
+		};
+		0605B68F188D7B8B005926D0 /* report */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = report;
+			sourceTree = "<group>";
+		};
+		0605B690188D7B8B005926D0 /* unit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = unit;
+			sourceTree = "<group>";
+		};
+		0605B692188D7B8B005926D0 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = vendor;
+			sourceTree = "<group>";
+		};
+		0605B693188D7B8B005926D0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0605B694188D7B8B005926D0 /* layouts */,
+				0605B698188D7B8B005926D0 /* site */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0605B694188D7B8B005926D0 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				0605B695188D7B8B005926D0 /* column1.php */,
+				0605B696188D7B8B005926D0 /* column2.php */,
+				0605B697188D7B8B005926D0 /* main.php */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		0605B698188D7B8B005926D0 /* site */ = {
+			isa = PBXGroup;
+			children = (
+				0605B699188D7B8B005926D0 /* contact.php */,
+				0605B69A188D7B8B005926D0 /* error.php */,
+				0605B69B188D7B8B005926D0 /* index.php */,
+				0605B69C188D7B8B005926D0 /* login.php */,
+				0605B69D188D7B8B005926D0 /* pages */,
+			);
+			path = site;
+			sourceTree = "<group>";
+		};
+		0605B69D188D7B8B005926D0 /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				0605B69E188D7B8B005926D0 /* about.php */,
+			);
+			path = pages;
+			sourceTree = "<group>";
+		};
+		0605B6A2188D7B8B005926D0 /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				0605B6A3188D7B8B005926D0 /* classic */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		0605B6A3188D7B8B005926D0 /* classic */ = {
+			isa = PBXGroup;
+			children = (
+				0605B6A4188D7B8B005926D0 /* views */,
+			);
+			path = classic;
+			sourceTree = "<group>";
+		};
+		0605B6A4188D7B8B005926D0 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				0605B6A5188D7B8B005926D0 /* .htaccess */,
+				0605B6A6188D7B8B005926D0 /* layouts */,
+				0605B6A7188D7B8B005926D0 /* site */,
+				0605B6A8188D7B8B005926D0 /* system */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		0605B6A6188D7B8B005926D0 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		0605B6A7188D7B8B005926D0 /* site */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = site;
+			sourceTree = "<group>";
+		};
+		0605B6A8188D7B8B005926D0 /* system */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = system;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
